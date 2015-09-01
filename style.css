@@ -1,0 +1,54 @@
+#tower2{
+  background-color: ;
+
+}
+#tower1{
+  background-color: ;
+}
+
+#tower3{
+  background-color: ;
+}
+
+.pieceContainer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.tower{
+  border: 1px solid black;
+  height: 500px;
+  display: inline-block;
+  position: absolute;
+}
+
+.piece{
+  border: 1px dotted silver;
+  height: 50px;
+}
+
+#piece1{
+  width: 100%;
+  background-color:red;
+}
+#piece2{
+  width: 85%;
+  background-color: hotpink;
+}
+#piece3{
+  width: 60%;
+  background-color: yellow;
+}
+#piece4{
+  width: 45%;
+  background-color: black;
+}
+#piece5{
+  width: 30%;
+  background-color: blue;
+}
+#piece6 {
+  width: 15%;
+  background-color: black;
+}
