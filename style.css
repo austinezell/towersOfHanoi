@@ -1,54 +1,92 @@
 #tower2{
-  background-color: ;
+  background-image: url(powerRangers.png), linear-gradient(to bottom right, #0000ff , black);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: grey;
+
 
 }
 #tower1{
-  background-color: ;
+  /*background-image: url(winScenario.gif);, linear-gradient(to bottom right, black , #eeeeee);*/
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #tower3{
-  background-color: ;
+  background-color:;
+}
+
+#pieceContainer{
+
 }
 
 .pieceContainer{
+
   width: 90%;
   position: absolute;
   bottom: 0;
 }
 
 .tower{
+
+
+  /*background-color: #FBA53B;*/
+  background-size: contain;
+  background-repeat: no-repeat;
   border: 1px solid black;
-  height: 500px;
+  height: 750px;
   display: inline-block;
   position: absolute;
 }
 
 .piece{
-  border: 1px grey;
-  height: 50px;
+  border: 2px solid  white;
+  height: 70px;
+  border-radius: 25px;
 }
 
 #piece1{
+  background-image: url(redRanger.jpg);
+  background-size: contain;
   width: 100%;
-  background-color:red;
+  background-color: #c7121b;
+
+  background-position: center;
 }
 #piece2{
+  background-image: url(pinkRanger.jpg);
+  background-size: contain;
   width: 85%;
-  background-color: hotpink;
+  background-repeat: space;
+  background-color: #ec5b9e;
 }
 #piece3{
+  background-image: url(yellowRanger.jpg);
+  background-size: contain;
   width: 60%;
-  background-color: yellow;
+  background-repeat: space;
+  background-color: #fff500;
 }
 #piece4{
+  background-image: url(blackRanger.jpg);
+  background-size: contain;
   width: 45%;
+  background-repeat: space;
   background-color: black;
 }
 #piece5{
+  background-image: url(blueRanger.jpg);
+  background-size: contain;
   width: 30%;
-  background-color: blue;
+
+  background-color: #0049a2;
 }
+
 #piece6 {
+  background-image: url(greenRanger.jpg);
+  background-size: contain;
+  background-repeat: space;
+  background-position: center;
   width: 15%;
-  background-color: black;
+  background-color: #35a22f;
 }

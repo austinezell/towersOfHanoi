@@ -7,7 +7,8 @@ function init(){
   var $turns = $('#turns')
   $('.tower').on('click', function(){
     if(!win){
-      var $selectedTower = $(this)
+
+      var $selectedTower = $(this);
       if (!heldPiece){
         var $selectedPiece = $selectedTower.find('.piece').first();
         heldPiece =$selectedPiece.clone();
@@ -16,14 +17,15 @@ function init(){
         testMovement($selectedTower);
       }
     }
+
     function testMovement(selectedTower){
       var $currentVal = heldPiece.data('id');
       var $stackVal = selectedTower.find('.piece').first().data('id');
       if ($currentVal > $stackVal || $stackVal === undefined){
         selectedTower.find('.pieceContainer').prepend(heldPiece);
         heldPiece = '';
-        turns++
-        $turns.text('Turns used: '+ turns)
+        turns++;
+        $turns.text('Turns used: '+ turns);
       }else {
         $("body").fadeOut(100).fadeIn(100);
       }
@@ -32,8 +34,9 @@ function init(){
     }
     function haveWon(length){
       console.log(length);
-      if (length === 5){
+      if (length === 6){
         win = true;
+        $('#pieceContainer2').css("background-image", "url(winScenario.gif)")
         $('#winMessage').text('YOU WIN!!');
       }
     }
