@@ -11,7 +11,7 @@
 }
 
 .pieceContainer{
-  width: 100%;
+  width: 90%;
   position: absolute;
   bottom: 0;
 }
@@ -24,7 +24,7 @@
 }
 
 .piece{
-  border: 1px dotted silver;
+  border: 1px grey;
   height: 50px;
 }
 

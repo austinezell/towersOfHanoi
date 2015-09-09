@@ -5,7 +5,6 @@ function init(){
   var win = false;
   var turns = 0
   var $turns = $('#turns')
-  var $winningPieceContainerLength = $('#tower3 .pieceContainer').children().length;
   $('.tower').on('click', function(){
     if(!win){
       var $selectedTower = $(this)
@@ -25,12 +24,14 @@ function init(){
         heldPiece = '';
         turns++
         $turns.text('Turns used: '+ turns)
-        haveWon($winningPieceContainerLength);
       }else {
         $("body").fadeOut(100).fadeIn(100);
       }
+        var $winningPieceContainerLength = $('#tower3 .pieceContainer').children().length;
+        haveWon($winningPieceContainerLength);
     }
     function haveWon(length){
+      console.log(length);
       if (length === 5){
         win = true;
         $('#winMessage').text('YOU WIN!!');
