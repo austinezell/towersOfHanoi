@@ -36,7 +36,7 @@ function init(){
       console.log(length);
       if (length === 6){
         win = true;
-        $('#pieceContainer2').css("background-image", "url(winScenario.gif)")
+        $('#pieceContainer1').css("background-image", "url(winScenario.gif)")
         $('#winMessage').text('YOU WIN!!');
       }
     }

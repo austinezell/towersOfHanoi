@@ -3,17 +3,17 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-color: grey;
-
-
 }
+
 #tower1{
+  background: linear-gradient(to bottom right, black , #eeeeee);
   /*background-image: url(winScenario.gif);, linear-gradient(to bottom right, black , #eeeeee);*/
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #tower3{
-  background-color:;
+  background: linear-gradient(to bottom right, white , black);
 }
 
 #pieceContainer{
