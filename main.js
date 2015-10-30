@@ -1,7 +1,7 @@
 $(document).ready(init);
 
 function init(){
-  var $winningPieceContainer = $('#tower3 .pieceContainer').children();
+  var $winningPieceContainer = $('#tower3 .pieceContainer');
   var heldPiece;
   var win = false;
   var turns = 0
@@ -29,7 +29,7 @@ function init(){
       }else {
         $("body").fadeOut(100).fadeIn(100);
       }
-      haveWon($winningPieceContainer.length);
+      haveWon($winningPieceContainer.children.length);
     }
     function haveWon(length){
       if (length === 6){
