@@ -1,13 +1,13 @@
 $(document).ready(init);
 
 function init(){
-  var heldPiece = '';
+  var $winningPieceContainer = $('#tower3 .pieceContainer');
+  var heldPiece;
   var win = false;
   var turns = 0
   var $turns = $('#turns')
   $('.tower').on('click', function(){
     if(!win){
-
       var $selectedTower = $(this);
       if (!heldPiece){
         var $selectedPiece = $selectedTower.find('.piece').first();
@@ -29,14 +29,11 @@ function init(){
       }else {
         $("body").fadeOut(100).fadeIn(100);
       }
-        var $winningPieceContainerLength = $('#tower3 .pieceContainer').children().length;
-        haveWon($winningPieceContainerLength);
+      haveWon($winningPieceContainer.children.length);
     }
     function haveWon(length){
-      console.log(length);
       if (length === 6){
         win = true;
-        $('#pieceContainer1').css("background-image", "url(winScenario.gif)")
         $('#winMessage').text('YOU WIN!!');
       }
     }
