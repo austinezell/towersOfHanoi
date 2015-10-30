@@ -29,7 +29,7 @@ function init(){
       }else {
         $("body").fadeOut(100).fadeIn(100);
       }
-      haveWon($winningPieceContainer.children.length);
+      haveWon($winningPieceContainer.children().length);
     }
     function haveWon(length){
       if (length === 6){

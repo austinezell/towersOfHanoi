@@ -7,29 +7,19 @@
 
 #tower1{
   background: linear-gradient(to bottom right, black , #eeeeee);
-  /*background-image: url(winScenario.gif);, linear-gradient(to bottom right, black , #eeeeee);*/
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 #tower3{
   background: linear-gradient(to bottom right, white , black);
 }
 
-#pieceContainer{
-
-}
-
 .pieceContainer{
-
   width: 90%;
   position: absolute;
   bottom: 0;
 }
 
 .tower{
-
-
   /*background-color: #FBA53B;*/
   background-size: contain;
   background-repeat: no-repeat;
