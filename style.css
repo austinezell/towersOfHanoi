@@ -17,66 +17,69 @@
   width: 90%;
   position: absolute;
   bottom: 0;
+  margin: 0 auto;
 }
 
 .tower{
-  /*background-color: #FBA53B;*/
   background-size: contain;
   background-repeat: no-repeat;
-  border: 1px solid black;
-  height: 750px;
-  display: inline-block;
-  position: absolute;
+  height: 85vh;
+  min-height: 450px;
+  margin: 0 auto;
 }
 
-.piece{
-  border: 2px solid  white;
+.piece {
+  /*border: 2px solid  white;*/
   height: 70px;
-  border-radius: 25px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: space;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 
 #piece1{
-  background-image: url(redRanger.jpg);
-  background-size: contain;
+  background-image: radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.7) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./redRanger.jpg");
+  background-image: -moz-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.7) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./redRanger.jpg");
+  background-image: -webkit-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.7) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./redRanger.jpg");
   width: 100%;
   background-color: #c7121b;
-
-  background-position: center;
 }
+
 #piece2{
-  background-image: url(pinkRanger.jpg);
-  background-size: contain;
+  background-image: radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./pinkRanger.jpg");
+  background-image: -moz-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./pinkRanger.jpg");
+  background-image: -webkit-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./pinkRanger.jpg");
   width: 85%;
-  background-repeat: space;
   background-color: #ec5b9e;
 }
 #piece3{
-  background-image: url(yellowRanger.jpg);
-  background-size: contain;
+  background-image: radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./yellowRanger.jpg");
+  background-image: -moz-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./yellowRanger.jpg");
+  background-image: -webkit-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./yellowRanger.jpg");
   width: 60%;
-  background-repeat: space;
   background-color: #fff500;
 }
+
 #piece4{
-  background-image: url(blackRanger.jpg);
-  background-size: contain;
+  background-image: radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./blackRanger.jpg");
+  background-image: -moz-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./blackRanger.jpg");
+  background-image: -webkit-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./blackRanger.jpg");
   width: 45%;
-  background-repeat: space;
   background-color: black;
 }
 #piece5{
-  background-image: url(blueRanger.jpg);
-  background-size: contain;
+  background-image: radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./blueRanger.jpg");
+  background-image: -moz-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./blueRanger.jpg");
+  background-image: -webkit-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./blueRanger.jpg");
   width: 30%;
-
   background-color: #0049a2;
 }
 
 #piece6 {
-  background-image: url(greenRanger.jpg);
-  background-size: contain;
-  background-repeat: space;
-  background-position: center;
+  background-image: radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./greenRanger.jpg");
+  background-image: -moz-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./greenRanger.jpg");
+  background-image: -webkit-radial-gradient(ellipse at 35% 20px, rgba(255,255,255,.8) 0%,  rgba(255,255,255,.5) 15%,rgba(255,255,255,.3) 45%, rgba(0,0,0,.2)), url("./greenRanger.jpg");
   width: 15%;
   background-color: #35a22f;
 }

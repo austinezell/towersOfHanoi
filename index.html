@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <meta charset="UTF-8">
   <title>Towers Of Hanoi</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div id=tower1 align='center' class="col col-xs-4 tower">
+  <div id=tower1 class="col-xs-4 tower">
     <div class="pieceContainer">
-      <div data-id=6 id=piece6 class="piece"></div>
-      <div data-id=5 id=piece5 class="piece"></div>
+      <div data-id=6 id=piece6 class="piece">
+        <div class="piece-cover"></div>
+      </div>
+      <div data-id=5 id=piece5 class="piece">
+      </div>
       <div data-id=4 id=piece4 class="piece"></div>
       <div data-id=3 id=piece3 class="piece"></div>
       <div data-id=2 id=piece2 class="piece"></div>
       <div data-id=1 id=piece1 class="piece"></div>
     </div>
   </div>
-  <div id=tower2 align='center' class="col col-xs-4 tower">
+  <div id=tower2 align='center' class="col-xs-4 tower">
     <div id=pieceContainer2 class="pieceContainer">
     </div>
 
   </div>
-  <div id=tower3 align='center' class="tower col col-xs-4">
+  <div id=tower3 align='center' class="tower col-xs-4">
     <div class="pieceContainer">
     </div>
   </div>
